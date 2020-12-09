@@ -3,3 +3,14 @@ provider "aws" {
   secret_key = "ksiDJZIgY2mvAe1VNVRYgcmNcpjMevmlJxcl4v3R"
   region     = "ap-south-1"
 }
+
+/*
+terraform {
+  backend "s3" {
+    bucket = "ratneshs2storage"
+    key    = "terraform.tfstate"
+    region = "ap-south-1"
+  }
+}
+
+*/
